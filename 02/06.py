@@ -18,14 +18,14 @@ class Rectangle:
         intersection_h = y2 - y1
         return Rectangle(x1, y1, intersection_w, intersection_h)
 
-    def get_x(self):
+    def get_x(self) -> int | float:
         return self.x
 
-    def get_y(self):
+    def get_y(self) -> int | float:
         return self.y
 
-    def get_w(self):
+    def get_w(self) -> int | float:
         return self.w
 
-    def get_h(self):
+    def get_h(self) -> int | float:
         return self.h
